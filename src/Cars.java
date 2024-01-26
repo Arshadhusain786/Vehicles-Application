@@ -1,5 +1,5 @@
 
-    public class car extends vehicle {
+    public class Cars extends vehicle {
         private int currentGear;
         private int wheels;
         private String type;
@@ -9,7 +9,7 @@
 
         private int seats;
 
-        car(String name, int wheels, String type, int doors, int gear, boolean isManual, int seats) {
+        Cars(String name, int wheels, String type, int doors, int gear, boolean isManual, int seats) {
             // To call the constructor of parent class in child class we use super()
             super(name);
 
@@ -87,4 +87,6 @@
         }
 
     }
+
+
 

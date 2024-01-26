@@ -1,4 +1,4 @@
-public class F1 extends car{
+public class F1 extends Cars{
     public F1(String name,boolean isManual) {
         super(name, 4, "Luxury", 4, 5, isManual, 6);
     }
